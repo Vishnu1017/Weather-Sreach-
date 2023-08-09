@@ -103,13 +103,7 @@ function WeatherApp() {
                                 <p>Wind Speed</p>
                             </div>
                         </div>
-                        <div className="uv-index"> {/* UV index section */}
-                            <i><FontAwesomeIcon icon={faSun} /></i>
-                            <div className="text">
-                            <span>{weatherData.uvIndex}</span>
-                            <p>UV Index</p>
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
     )
